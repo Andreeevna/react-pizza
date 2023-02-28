@@ -4,10 +4,10 @@ import { Route, Routes } from 'react-router-dom';
 
 import { Header } from './components/Header';
 import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
 const Cart = React.lazy(() => import(/*webpackChunkName: "Cart"*/ './pages/Cart'));
 const FullPizza = React.lazy(() => import(/*webpackChunkName: "FullPizza"*/ './pages/FullPizza'));
-const NotFound = React.lazy(() => import(/*webpackChunkName: "NotFound"*/ './pages/NotFound'));
 
 function App() {
   return (
@@ -32,14 +32,7 @@ function App() {
               </Suspense>
             }
           />
-          <Route
-            path="*"
-            element={
-              <Suspense fallback={<div>Loading...</div>}>
-                <NotFound />
-              </Suspense>
-            }
-          />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </div>
