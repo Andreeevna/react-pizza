@@ -32,7 +32,7 @@ function App() {
               </Suspense>
             }
           />
-          <Route path="*" element={<NotFound />} />
+          {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
       </div>
     </div>
