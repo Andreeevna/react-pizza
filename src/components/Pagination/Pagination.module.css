@@ -1,0 +1,1 @@
+.root li{display:inline-block}.root li a{display:inline-block;margin-right:10px;line-height:42px;width:40px;height:40px;text-align:center;color:rgba(254,93,30,.862745098);border:1px solid #fe5f1e;border-radius:30px;cursor:pointer;transition:all .5s ease-in-out}.root li a:hover{background-color:#fe5f1e;color:#fff}.root :global .selected a{background-color:#fe5f1e;color:#fff}
