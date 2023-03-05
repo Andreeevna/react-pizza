@@ -1,3 +1,23 @@
+# React-pizza
+
+https://andreeevna.github.io/react-pizza/
+
+# Stack:
+
+- ReactJS 18
+- TypeScript
+- Redux Toolkit 
+- React Router v6 
+- Axios
+- React Hooks
+- Prettier 
+- CSS-Modules / SCSS 
+- React Content Loader 
+- React Pagination 
+- Lodash.Debounce
+- Code Splitting, React Loadable, useWhyDidYouUpdate
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
